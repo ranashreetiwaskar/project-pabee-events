@@ -1,0 +1,6 @@
+<div class="list-group mb-3">
+    <a href="products/create-product" class="list-group-item" style="background-color: rgb(206, 219, 231);">Create/ Update Product</a>
+</div>
+<div class="list-group mb-3" *ngFor="let cat of categoryList">
+    <a href="products/category/{{cat.id}}" class="list-group-item">{{ cat.categoryName }}</a>
+</div>

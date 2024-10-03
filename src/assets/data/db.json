@@ -1,0 +1,192 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "productName": "Polo Tshirt1",
+      "category_id": 1,
+      "description": "Description goes here",
+      "product_image": "http://localhost:4200/assets/images/polo_tshirt1.jpg",
+      "price": 500,
+      "is_available": true,
+      "rating": 4,
+      "reviews": 120,
+      "vendor_name": "Seller - 1",
+      "warranty": 2
+    },
+    {
+      "id": "2",
+      "productName": "Polo Tshirt2",
+      "category_id": 1,
+      "description": "Description goes here",
+      "product_image": "http://localhost:4200/assets/images/polo_tshirt2.jpg",
+      "price": 400,
+      "is_available": true,
+      "rating": 6,
+      "reviews": 250,
+      "vendor_name": "Seller - 1",
+      "warranty": 1
+    },
+    {
+      "id": "3",
+      "productName": "Polo Tshirt3",
+      "category_id": 3,
+      "description": "Description goes here",
+      "product_image": "http://localhost:4200/assets/images/polo_tshirt3.jpg",
+      "price": 300,
+      "is_available": true,
+      "rating": 5,
+      "reviews": 250,
+      "vendor_name": "Seller - 1",
+      "warranty": 1
+    },
+    {
+      "id": "4",
+      "productName": "Polo Tshirt4",
+      "category_id": 2,
+      "description": "Description goes here",
+      "product_image": "http://localhost:4200/assets/images/polo_tshirt4.jpg",
+      "price": 250,
+      "is_available": true,
+      "rating": 7,
+      "reviews": 250,
+      "vendor_name": "Seller - 1",
+      "warranty": 1
+    },
+    {
+      "id": "5",
+      "productName": "Polo Tshirt5",
+      "category_id": 3,
+      "description": "Description goes here",
+      "product_image": "http://localhost:4200/assets/images/polo_tshirt5.jpg",
+      "price": 700,
+      "is_available": true,
+      "rating": 9,
+      "reviews": 250,
+      "vendor_name": "Seller - 1",
+      "warranty": 1
+    },
+    {
+      "id": "6",
+      "productName": "Polo Tshirt6",
+      "category_id": 4,
+      "description": "Description goes here",
+      "product_image": "http://localhost:4200/assets/images/polo_tshirt6.jpg",
+      "price": 300,
+      "is_available": true,
+      "rating": 6,
+      "reviews": 250,
+      "vendor_name": "Seller - 1",
+      "warranty": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Amit Gawande",
+      "gender": "Male",
+      "email": "amit@gmail.com",
+      "password": "amit@123"
+    },
+    {
+      "id": "2",
+      "name": "Ashwin Kamble",
+      "gender": "Male",
+      "email": "ashwin@gmail.com",
+      "password": "ashwin@123"
+    },
+    {
+      "id": "3baf",
+      "fullname": "fssfadds",
+      "email": "dffdfd",
+      "password": "dddfd",
+      "gender": "male"
+    },
+    {
+      "id": "aef0",
+      "fullname": "Ranashree Tiwaskar",
+      "email": "ranashree@gmail.com",
+      "password": "rana@13",
+      "gender": null
+    },
+    {
+      "id": "c0cb",
+      "fullname": "sdd",
+      "email": "qwwqd",
+      "password": "deeded",
+      "gender": "female"
+    },
+    {
+      "id": "448e",
+      "fullname": "ranass",
+      "email": "dsdd@gmail.com",
+      "password": "vdsfsd@",
+      "gender": "male"
+    },
+    {
+      "id": "eb1e",
+      "fullname": "rajesh",
+      "email": "rajesh@gmail.com",
+      "password": "rajesh@123",
+      "gender": "male"
+    },
+    {
+      "id": "31f2",
+      "fullname": "akshay",
+      "email": "akshay@gmail.com",
+      "password": "akshay@123",
+      "gender": "male"
+    },
+    {
+      "id": "",
+      "fullname": "mitva",
+      "email": "mitva@gmail.com",
+      "password": "mitva123",
+      "gender": "female"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "categoryName": "Polo Tshirts"
+    },
+    {
+      "id": "2",
+      "categoryName": "Soccer Tshirts"
+    },
+    {
+      "id": "3",
+      "categoryName": "Casual Tshirts"
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "name": "Akash Borkar",
+      "role": "admin",
+      "access_area": "all_access"
+    },
+    {
+      "id": "2",
+      "role": "user",
+      "name": "Amit Gawande",
+      "email": "amit@gmail.com",
+      "password": "amit@123",
+      "access_area": "limited_access"
+    },
+    {
+      "id": "3",
+      "role": "user",
+      "name": "Ashwin Kamble",
+      "email": "ashwin@gmail.com",
+      "password": "ashwin@123",
+      "access_area": "limited_access"
+    }
+  ]
+}

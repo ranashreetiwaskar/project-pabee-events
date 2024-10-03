@@ -1,0 +1,46 @@
+<br />
+<h1 class="text-center">Please Sign Up!</h1>
+<br />
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mx-auto">
+      <form class="mb-3" [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+        <div>
+          <label for="text" class="form-label">Full Name</label><br />
+          <input type="text" class="form-control" formControlName="fullname" />
+        </div>
+        <br />
+        <div>
+          <label for="email" class="form-label">Email Id</label><br />
+          <input type="email" class="form-control" formControlName="email" />
+        </div>
+        <br />
+        <div>
+          <label class="form-label">Password</label><br />
+          <input
+            type="password"
+            class="form-control"
+            formControlName="password"
+          />
+        </div>
+        <br />
+        <div>
+          <label class="dropdown form-label" for="gender">Select Gender :  &nbsp;</label>
+          <select class="btn btn-light dropdown-toggle" formControlName="gender" id="gender">
+            <option>Select Genger...</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+        <br />
+        <button
+          type="submit"
+          [disabled]="signupForm.invalid"
+          class="btn btn-primary"
+        >
+          Signup
+        </button>
+      </form>
+    </div>
+  </div>
+</div>

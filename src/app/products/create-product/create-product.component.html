@@ -1,0 +1,64 @@
+<form [formGroup]="myForm" (ngSubmit)="onSubmit()" class="row g-3 pt-4 pb-4">
+  <div class="col-md-6">
+    <label for="validationServer01" class="form-label">First Name</label>
+    <input type="text" class="form-control" formControlName="productName">
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer02" class="form-label">Last Name</label>
+    <input type="text" class="form-control" formControlName="category_id">
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer02" class="form-label">Firm/ Company Name</label>
+    <input type="text" class="form-control" formControlName="description">  
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer02" class="form-label">Position</label>
+    <input type="text" class="form-control" formControlName="category_id">
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Type of Enquiry</label>
+    <select class="form-control custom-select" name="product_rating" ngModel>
+      <option value="">Choose...</option>
+      <option value="1">First</option>
+      <option value="2">Complete</option>
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Number of People</label>
+    <select class="form-control custom-select" name="product_rating" ngModel>
+      <option value="">Choose...</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer02" class="form-label">Email ID</label>
+    <input type="Email" class="form-control" formControlName="description">
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer02" class="form-label">Contact Number</label>
+    <input type="number" class="form-control" formControlName="description">
+  </div>
+  <div class="col-md-6">
+    <label class="form-label">Age Group</label>
+    <select class="form-control custom-select" name="product_rating" ngModel>
+      <option value="">Choose...</option>
+      <option value="1">Senior</option>
+      <option value="2">Middle</option>
+      <option value="3">Bachlor</option>
+      <option value="3">Mixed</option>
+    </select>
+  </div>
+  <div class="col-md-6">
+    <label for="validationServer02" class="form-label">Date of Birth</label>
+    <input type="date" class="form-control" name="product_color" ngModel>
+  </div>
+  <div class="col-md-12">
+    <label for="validationServer02" class="form-label">Details</label>
+    <textarea type="text" class="form-control" name="product_color" ngModel></textarea>
+  </div>
+  
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit" [disabled]="myForm.invalid">Submit form</button>
+  </div>
+</form>

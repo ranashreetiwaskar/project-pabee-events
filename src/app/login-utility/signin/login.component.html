@@ -1,0 +1,35 @@
+<br>
+<h1 class="text-center">Please Sign In!</h1>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <form class="mb-3" [formGroup]="loginForm" (ngSubmit)="login()">
+                <div>
+                  <label for="email" class="form-label">Email Id</label><br />
+                  <input type="email" class="form-control" formControlName="email" />
+                  <!-- <div
+                    *ngIf="loginForm.get('email')?.invalid && loginForm.get('email')?.touched"
+                  ></div> -->
+                </div>
+                <div><br>
+                  <label class="form-label">Password</label><br />
+                  <input type="password" class="form-control" formControlName="password" />
+                </div>
+                <!-- <div
+                  *ngIf="
+                    loginForm.get('password')?.invalid && loginForm.get('password')?.touched
+                  "
+                ></div> -->
+                <br>
+                <button type="submit" [disabled]="loginForm.invalid" class="btn btn-primary">
+                  Login
+                </button>
+                <br>
+                <br>
+                <a class="nav-link" routerLink="/sign-up">Create new account ?</a>
+              </form>
+        </div>
+    </div>
+</div>
+<router-outlet></router-outlet>
